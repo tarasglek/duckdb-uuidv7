@@ -18,3 +18,4 @@ SELECT
   uuidv7() AS current_uuid;
 ```
 
+These were generated using o3-mini in https://chatcraft.org/api/share/tarasglek/rbGG86Pqevz0igzHlQ4Nv
