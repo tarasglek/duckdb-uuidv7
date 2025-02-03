@@ -31,7 +31,7 @@ CREATE MACRO epoch_ms_from_uuidv7(u) AS (
   SELECT CAST(
     CONCAT(
       '0x',
-      CONCAT(SUBSTR(u, 1, 8), SUBSTR(u, 10, 4))
+      CONCAT(SUBSTR(u::text, 1, 8), SUBSTR(u::text, 10, 4))
     )
     AS BIGINT
   )
