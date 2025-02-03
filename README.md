@@ -5,10 +5,10 @@ The following demonstrates how to load and test the UUID v7 macros in the DuckDB
 Inside the DuckDB CLI, load the macros file by running:
 
 ```sql
-.read macros.sql
+.read uuidv7.sql
 ```
 
-This command will execute the SQL in "macros.sql" and create the macros for use. Once loaded, you can use the macros as follows:
+This command will execute the SQL in "uuidv7.sql" and create the macros for use. Once loaded, you can use the macros as follows:
 
 ```sql
 -- Test all macros
